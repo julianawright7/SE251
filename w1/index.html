@@ -37,8 +37,45 @@
     array[x] = x + 1
 
   }
-  console.log(array)
-  
+  //FizzBizz
+    var arr = [] 
+    for (var i=0; i<100; i++)
+    {
+        arr[i]=i+1;
+    }
+    console.log(arr)
+    var fb=[]
+    for(var i=0; i<100;i++)
+    {
+        fb[i]=i+1;
+        if(fb[i]%2 == 0)
+        {
+            fb[i]= "Fizz"
+        }
+    }
+    console.log(fb)
+    var bz=[]
+    for(var i=0; i<100;i++)
+    {
+        bz[i]=i+1;
+        if(bz[i]%3 == 0)
+        {
+            bz[i]= "Buzz"
+        }
+    }
+    console.log(bz)
+
+    var fbz=[]
+    for(var i=0; i<100;i++)
+    {
+        fbz[i]=i+1;
+        if(fbz[i]%3 == 0 && fbz[i]%2 == 0 )
+        {
+            fbz[i]= "Fizz Buzz"
+        }
+    }
+    console.log(fbz)
+    
   
 
 </script>
